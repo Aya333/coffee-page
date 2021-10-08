@@ -1,0 +1,13 @@
+.nav-bar{
+    display: flex;
+    flex: 1 1 0%;
+    
+
+}
+.nav-bar,.links a
+{
+    justify-content: space-between;
+    align-items:flex-end;
+    gap: 10px;
+
+}
