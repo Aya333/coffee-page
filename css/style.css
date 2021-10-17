@@ -1,57 +1,108 @@
-
-header{
-    display:flex;
-    flex: 1 1 0%; 
- flex-direction: column;
-
-} 
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+}
 /********** START OF NAV BAR STYLING ************/
-.first-section{
-    display: flex;
-    flex: 1 1 0%; 
-    justify-content: space-between;
-
+.first-section {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: space-between;
 }
 
-.links ul{
-    list-style: none;
-     display: flex;
-     justify-items: flex-end;
-     gap: 50px;
-     margin-right: 20px;
-   
-
+.links ul {
+  list-style: none;
+  display: flex;
+  justify-items: flex-end;
+  gap: 50px;
+  margin-right: 20px;
 }
 
-.first-section img{
-    height: auto;
-    width: 100px;
-    margin-left: 20px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-  
+.first-section img {
+  height: auto;
+  width: 100px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 /********** END OF NAV BAR STYLING ************/
-.container{
-    display: flex;
-    flex: 1 1 0%; 
-    justify-content: space-between;
-
+.container {
+  display: flex;
+  flex: 1 1 0%;
+  justify-content: space-between;
 }
-.header-main-left{
-    align-items: flex-start;
+.header-main-left {
+  align-items: flex-start;
+  text-align: left;
+  width: 500px;
+  height: auto;
+  margin: 30px;
+}
+
+.container img {
+  width: 400px;
+  height: auto;
+  margin-right: 100px;
+}
+/********** END OF HEDER STYLING ************/
+
+/*------------------------*/
+/*-----------------------*/
+
+/********** START OF MAIN STYLING ************/
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px;
+  /* padding:50px; */
+}
+
+.main-part1-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  width: 500px;
+  gap: 30px;
+  margin-top: 20px;
+}
+.main-part1-p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 500px;
+}
+
+.main-part2{
+    align-items: center;
     text-align: center;
-    width: 600px;
-    height: auto;
-    margin: 30px;
-    /* border: solid;
+    width: auto;
+    height: 200px;
+    padding: 60px;
+   
+}
+.main-part3{
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.sign{
+    align-self: center;
+    justify-self: center;
+}
+footer{
+    text-align: center;
+    height:70px;
+    
+}
+
+/*   border: solid;
     border-width: 5px;
     border-color: black; */
-}
-
-.container img{
-    width: 400px;
-    height: auto;
-    margin-right: 100px;
-
-}
