@@ -1,16 +1,31 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&display=swap');
+*{
   box-sizing: border-box;
+}
+body{
+margin: 0;
+height: 100%;
 }
 header {
   display: flex;
   flex: 1 1 0%;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: center;
+  /* background-color:#9fb445; */
+  background-color:#899a3b;
+
+
+
+
 }
 /********** START OF NAV BAR STYLING ************/
 .first-section {
   display: flex;
   flex: 1 1 0%;
   justify-content: space-between;
+ 
 }
 
 .links ul {
@@ -18,13 +33,20 @@ header {
   display: flex;
   justify-items: flex-end;
   gap: 50px;
-  margin-right: 20px;
+  margin-right: 250px;
+font-family: 'Quattrocento Sans', sans-serif;
+
 }
 
+ul li a{
+ text-decoration: none;
+ color: #dcd6ac;
+
+}
 .first-section img {
   height: auto;
   width: 100px;
-  margin-left: 20px;
+  margin-left: 100px;
   margin-bottom: 5px;
   margin-top: 5px;
 }
@@ -36,16 +58,44 @@ header {
 }
 .header-main-left {
   align-items: flex-start;
-  text-align: left;
+  text-align: center;
   width: 500px;
   height: auto;
-  margin: 30px;
+  margin-left: 100px;
+ color: #322e15;
+ font-family: 'Fleur De Leah', cursive;
+font-size:22px;
+}
+.header-main-left p{
+ color: #dcd6ac;
+font-size: 20px;
+font-family: 'Quattrocento Sans', sans-serif;
+
 }
 
+.header-main-left button{
+  width:80px;
+  height: 25px;
+  border:transparent;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color:#322e15 ;
+ color: #dcd6ac;
+font-family: 'Quattrocento Sans', sans-serif;
+
+
+
+}
 .container img {
   width: 400px;
   height: auto;
-  margin-right: 100px;
+  margin-right: 200px;
+  padding: 15px;
+  opacity:0.9;
+  border:transparent;
+  border-top-left-radius:60px ;
+  border-bottom-right-radius: 60px;
 }
 /********** END OF HEDER STYLING ************/
 
@@ -102,7 +152,3 @@ footer{
     height:70px;
     
 }
-
-/*   border: solid;
-    border-width: 5px;
-    border-color: black; */
