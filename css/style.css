@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital@1&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 * {
   box-sizing: border-box;
 }
@@ -13,11 +13,9 @@ header {
   flex: 1 1 0%;
   justify-content: space-around;
   flex-flow: row wrap;
-  align-items:center;
-  /* background-color:#9fb445; */
+  align-items: center;
   background-color: #899a3b;
 }
-/********** START OF NAV BAR STYLING ************/
 .first-section {
   display: flex;
   flex: 1 1 0%;
@@ -38,7 +36,6 @@ ul li a {
   text-decoration: none;
   color: #dcd6ac;
   font-size: 20px;
-  /* font-weight: bold; */
 }
 .first-section img {
   height: auto;
@@ -46,7 +43,6 @@ ul li a {
   margin-left: 100px;
   margin-bottom: 5px;
   margin-top: 5px;
- 
 }
 /********** END OF NAV BAR STYLING ************/
 
@@ -92,32 +88,24 @@ ul li a {
   border-top-left-radius: 60px;
   border-bottom-right-radius: 60px;
 }
-/********** END OF HEDER STYLING ************/
+/********** END OF HEADER STYLING ************/
 
 /*------------------------*/
 /*-----------------------*/
-
-/********** START OF MAIN STYLING ************/
 
 main {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
-  /* margin: 60px; */
-  /* padding:50px; */
 
-    background-color: #e5e6af;
-    margin: 0;
-    height: 100%;
-    
+  background-color: #e5e6af;
+  margin: 0;
+  height: 100%;
 }
-main h2{
-  font-family: 'Aclonica', sans-serif;
-  /* color: #322e15; */
+main h2 {
+  font-family: "Aclonica", sans-serif;
   color: #899a3b;
-
-  
 }
 .main-part1-img {
   display: flex;
@@ -126,16 +114,13 @@ main h2{
   width: 500px;
   gap: 30px;
   margin-top: 20px;
- 
 }
-.main-part1-img img{
-  border:solid 5px ;
+.main-part1-img img {
+  border: solid 5px;
   border-radius: 10px;
   border-color: #899a3b;
-  /* border-color: #322e15; */
   width: 100px;
   height: 100px;
-
 }
 .main-part1-p {
   display: flex;
@@ -145,13 +130,12 @@ main h2{
   width: 500px;
   margin-bottom: 50px;
 }
-.main-part1-p p{
+.main-part1-p p {
   color: #322e15;
   font-family: "Quattrocento Sans", sans-serif;
   font-weight: bold;
   font-size: 17px;
-text-align: center;
-
+  text-align: center;
 }
 .main-part2 {
   align-items: center;
@@ -159,19 +143,15 @@ text-align: center;
   width: 100%;
   height: 200px;
   padding: 60px;
-  /* background-color: #605e2e; */
-  /* background-color: #78763a; */
-  background-color: #7d7534;
-
-
+  background-color: #aec05d;
 }
-.main-part2 p{
+.main-part2 p {
   font-family: "Quattrocento Sans", sans-serif;
   color: #dcd6ac;
   font-weight: bold;
   font-size: 20px;
 }
-.main-part2 .author-name{
+.main-part2 .author-name {
   align-self: flex-end;
   padding-left: 700px;
   padding-top: 30px;
@@ -180,20 +160,47 @@ text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-flow: column wrap;
-  /* align-self: center;
-  text-align: center; */
-  padding: 10px;
-  margin: 20px;
+  flex-flow: row wrap;
+  border: transparent;
+  border-radius: 6px;
+  width: 700px;
+  height: auto;
+  margin: 60px;
+  background-color: #7d7534;
 }
-.main-part3 .sign {
-  /* align-self: center;
-  justify-self: center; */
-  align-self: flex-end;
-  padding-left: 700px;
-  padding-top: 30px;
+
+.main-part3,
+h3 p {
+  padding-left: 20px;
+  padding-right: 0%;
+  color: #dcd6ac;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
 }
+
+.main-part3 button {
+  margin-right: 50px;
+  align-self: center;
+  width: 90px;
+  height: 30px;
+  border: solid;
+  border-radius: 5px;
+  background-color: #7d7534;
+  color: #dcd6ac;
+}
+/********** END OF MAIN STYLING ************/
+
 footer {
   text-align: center;
   height: 70px;
+  background-color: #322e15;
+  padding-top: 20px;
+  color: #dcd6ac;
+  font-family: "Fleur De Leah", cursive;
+  font-size: 35px;
+  /* padding-top: 30px; */
+  /* font-family: 'Aclonica', sans-serif; */
+  /* font-size: 20px; */
+  font-weight: bold;
 }
